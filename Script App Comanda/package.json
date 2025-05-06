@@ -1,32 +1,34 @@
 {
-      "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-      },
-      "dependencies": {
-        "react": "^18.0.0",
-        "react-dom": "^18.0.0",
-        "react-scripts": "^5.0.0",
-        "postcss": "^8",
-        "tailwindcss": "^3.4.1",
-        "autoprefixer": "^10.0.0",
-        "tailwind-merge": "^2.4.0",
-        "tailwindcss-animate": "^1.0.7"
-      },
-      "main": "/index.js",
-      "devDependencies": {},
-      "browserslist": {
-        "production": [
-          ">0.2%",
-          "not dead",
-          "not op_mini all"
-        ],
-        "development": [
-          "last 1 chrome version",
-          "last 1 firefox version",
-          "last 1 safari version"
-        ]
-      }
-    }
+  "name": "comanda-bahia-chill",
+  "private": true,
+  "main": "/index.js",
+  "dependencies": {
+    "react": "^18.2.0",                  // Versión más reciente del Código 1
+    "react-dom": "^18.2.0",              // Versión actualizada
+    "react-scripts": "^5.0.1",           // Última versión estable
+    "autoprefixer": "^10.4.16",          // Mantiene la versión del Código 1
+    "postcss": "^8.4.31",                // Versión específica para compatibilidad
+    "tailwindcss": "^3.4.1",             // Versión más reciente del Código 2
+    "tailwind-merge": "^2.4.0",          // Dependencia adicional del Código 2
+    "tailwindcss-animate": "^1.0.7"      // Dependencia adicional del Código 2
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",        // Añadido del Código 2
+    "eject": "react-scripts eject"       // Añadido del Código 2
+  },
+  "devDependencies": {},
+  "browserslist": {                      // Configuración del Código 2
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
